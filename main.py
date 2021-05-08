@@ -41,10 +41,8 @@ parser.add_option("--passlist", dest="passlist",help="Enter the password list di
 parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
-#password_file
-PASSWORD_FILE = raw_input("enter password location (enter in single cotation) : ")
-#chrome_driver location 
-CHROME_DVR_DIR = raw_input("enter chrome driver location (enter in single cotation) : ")
+
+CHROME_DVR_DIR = 'drivers\chromedriver.exe'
 
 def wizard():
     print (banner)
@@ -68,12 +66,12 @@ def wizard():
         t.sleep(1)
         print (color.RED + '[!]'+color.CWHITE+ ' Website could not be located make sure to use http / https')
         exit()
-   
+
     username_selector = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username selector: ')
     password_selector = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the password selector: ')
     login_btn_selector = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the Login button selector: ')
     username = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username to brute-force: ')
-    pass_list = PASSWORD_FILE
+    pass_list = raw_input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a directory to a password list: ')
     brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
 
 def brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website):
