@@ -40,5 +40,5 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 6). Watch it go!
 
 ## How to use (Video)
-[![IMAGE ALT TEXT]()](https://www.youtube.com/watch?v=PlP6i3qkaJk "Video Title")
+[![IMAGE ALT TEXT](https://github.com/morpheuslord/Hatch/blob/master/download.jpg)](https://www.youtube.com/watch?v=PlP6i3qkaJk "Video Title")
 
