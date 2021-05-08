@@ -1,8 +1,9 @@
 # Hatch
 Hatch is a brute force tool that is used to brute force most websites
 
-# Update! v.1.3.1
+# Update! v.1.3.2
 added arg support **yay**
+added personal location input **yay**
 <br>
   -h, --help            show this help message and exit<br>
   -u USERNAME, --username=USERNAME Choose the username<br>
@@ -39,5 +40,5 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 6). Watch it go!
 
 ## How to use (Video)
-[![IMAGE ALT TEXT](https://i.ytimg.com/vi/Hd_kQVnajxk/1.jpg)](https://youtu.be/Hd_kQVnajxk "Video Title")
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/Hd_kQVnajxk/1.jpg)](https://www.youtube.com/watch?v=PlP6i3qkaJk "Video Title")
 
